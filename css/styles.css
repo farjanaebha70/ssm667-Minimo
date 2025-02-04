@@ -1,0 +1,285 @@
+/*
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+
+
+/*common css start*/
+*{
+
+}
+body{
+  margin:0;
+  font-family: "Playfair Display", serif;
+  font-size:16px;
+  font-weight: 400;
+  color: #626262;
+
+}
+/*common css end*/
+
+/*header area start*/
+header{
+  padding:30px 0;
+  
+}
+.container{
+  margin:0 auto;
+  width:90%;
+  overflow: hidden;
+ 
+}
+.logo{
+  margin-top:7px;
+  width:10%;
+  float:left;
+}
+.logo a{}
+.logo a img{
+  width:100%;
+}
+nav{}
+.menu{
+  width:75%;
+  float:right;
+
+}
+.menu ul{
+  float:right;
+}
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  margin:0 50px;  
+  display:inline-block;
+  color: #626262;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom:1px solid transparent;
+  transition:.33s linear;
+
+}
+.menu ul li a:last-child{
+margin-right:0;
+}
+.menu ul li a:hover{
+  color: #626262;
+  border-bottom:1px solid #626262;
+}
+
+/*header area end*/
+
+/*banner area start*/
+
+.banner{}
+.banner_image{}
+.banner_image img{
+  width:100%;
+}
+/*banner area end*/
+
+/*article area start*/
+
+.article{
+  padding: 100px 0 30px;
+}
+.container_two{
+  margin:0 auto;
+  overflow: hidden;
+  width:80%;
+  
+}
+.article_content{}
+.common_link{
+  display:inline-block;
+  font-family: "Ubuntu", serif;
+  font-size: 14px;
+  font-weight:300;
+  color: #626262;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.common_h1{
+  margin:20px 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.common_text{
+  margin:0;
+  font-size: 16px;
+  line-height: 24px;
+}
+.comment{
+   margin-top:45px;
+}
+
+/*article area start*/
+
+/*Blog area start*/
+
+.blog{
+  padding-bottom:100px;
+}
+.blog_item{
+  margin-top:70px;
+  float:left;
+  width:47%;
+  
+}
+.blog_item:nth-child(even){
+
+margin-left:6%;
+
+}
+.blog_image{
+  margin-bottom:25px;
+}
+.blog_image img{
+  width:100%;
+}
+
+/*Blog area end*/
+/*blog2 area start*/
+.blog_two{
+  padding-top:30px;
+}
+
+/*bog2 area end*/
+
+/*newsletter area start*/
+
+.newsletter{
+  background-color: #F0F0F0;
+  padding:70px 0;
+}
+
+
+.signup{
+  text-align:center;
+}
+.signup_h1{
+  margin-top:0;
+  margin-bottom:70px;
+  color: #333333;
+}
+.signup_form{
+  position:relative;
+  width:400px;
+  margin:0 auto;
+ 
+}
+.signup_form input{
+   font-family: "Playfair Display", serif;
+   color:#626262 ;
+   font-size:14px;
+   width:350px;
+   height:45px;
+   border:none;
+   border-bottom: 1px solid #333333;
+   background: transparent;
+   padding-left:5px;
+   padding-right: 45px;
+}
+.signup_form input:focus{
+  outline:0;
+}
+.signup_form button{
+   position:absolute;
+   background: transparent;
+   border:none;
+   cursor: pointer;
+   top:12px;
+   right:0;
+}
+.signup_form button:focus{
+  outline:0;
+}
+.signup_form button img{}
+
+/*newsletter area end*/
+/*load more area start*/
+.load{
+  text-align: center;
+  padding:150px 0 100px;
+}
+.load_btn{
+  width:165px;
+  height:60px;
+  font-family: "Playfair Display", serif;
+  background-color: transparent;
+  border-radius: 0;
+  border:1px solid #626262;
+  font-size:20px;
+  color:#626262;
+  cursor: pointer;
+  transition: .33s linear;
+}
+.load_btn:hover{
+  background-color:  #626262;
+  color:#ffffff;
+
+
+}
+/*load more area end*/
+
+/*footer area start*/
+footer{
+  padding:30px;
+  background-color:  #f0f0f0;
+  overflow:hidden;
+}
+.pages{
+  width:50%;
+  float:left;
+}
+.pages ul{
+  
+}
+.pages ul li{
+    list-style: none;
+    float:left;
+}
+.pages ul li a{}
+.pages ul li a img{}
+.footer_link{
+  font-family: "Playfair Display", serif;
+  font-size:14px;
+  color:#000;
+  text-decoration: none;
+  display:inline-block;
+  margin:0 20px;
+
+}
+
+.social{
+  float:right;
+  width:50%;
+}
+.social ul{
+    float:right;
+}
+.social ul li{
+    list-style: none;
+    float:left;
+}
+.social ul li span{
+  font-family: "Playfair Display", serif;
+  font-size:14px;
+  color:#000;
+  margin:0 20px;
+}
+.social ul  li a{}
+.social ul  li a img{}
+.s_icon{
+  margin:0 5px;
+}
+
+/*footer area start*/
