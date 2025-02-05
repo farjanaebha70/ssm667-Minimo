@@ -248,6 +248,9 @@ footer{
     float:left;
 }
 .pages ul li a{}
+.pages ul li a:first-child{
+  margin-left:0;
+}
 .pages ul li a img{}
 .footer_link{
   font-family: "Playfair Display", serif;
@@ -277,6 +280,9 @@ footer{
   margin:0 20px;
 }
 .social ul  li a{}
+.social ul li a:last-child{
+  margin-right:0;
+}
 .social ul  li a img{}
 .s_icon{
   margin:0 5px;
