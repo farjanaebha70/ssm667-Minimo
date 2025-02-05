@@ -232,24 +232,29 @@ margin-left:6%;
 
 /*footer area start*/
 footer{
-  padding:30px;
+  padding:10px;
   background-color:  #f0f0f0;
   overflow:hidden;
+  
 }
 .pages{
   width:50%;
   float:left;
 }
-.pages ul{
-  
-}
+.pages ul{}
 .pages ul li{
     list-style: none;
     float:left;
 }
 .pages ul li a{}
-.pages ul li a:first-child{
+.pages ul li a:hover{
+  color:#626262;
+  transition: .33s;
+}
+.pages ul li:first-child{
   margin-left:0;
+
+
 }
 .pages ul li a img{}
 .footer_link{
@@ -258,7 +263,8 @@ footer{
   color:#000;
   text-decoration: none;
   display:inline-block;
-  margin:0 20px;
+  margin:0 10px;
+ 
 
 }
 
@@ -267,25 +273,25 @@ footer{
   width:50%;
 }
 .social ul{
-    float:right;
+  float:right;
 }
 .social ul li{
-    list-style: none;
-    float:left;
+  list-style: none;
+  float:left;
 }
 .social ul li span{
   font-family: "Playfair Display", serif;
   font-size:14px;
   color:#000;
-  margin:0 20px;
-}
-.social ul  li a{}
-.social ul li a:last-child{
-  margin-right:0;
-}
-.social ul  li a img{}
-.s_icon{
   margin:0 10px;
 }
+
+.social ul  li a{}
+.social ul  li a img{}
+.s_icon{}
+.social ul li:last-child{
+  margin-right:0;
+}
+
 
 /*footer area start*/
